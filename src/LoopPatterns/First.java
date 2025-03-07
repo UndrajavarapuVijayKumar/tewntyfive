@@ -1,4 +1,4 @@
-package patterns;
+package LoopPatterns;
 
 import java.util.Scanner;
 

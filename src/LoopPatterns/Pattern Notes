@@ -1,0 +1,35 @@
+outer for loop is for rows
+no. of lines = no. of rows => that many times the outer loop should run 
+
+identify for every row no. how many columns are there 
+types of elements in the column 
+
+
+1. Basic Math Operations
+
+Math.abs(x)	Absolute value	Math.abs(-10) → 10
+Math.max(a, b)	Maximum of two numbers	Math.max(5, 10) → 10
+Math.min(a, b)	Minimum of two numbers	Math.min(5, 10) → 5
+Math.sqrt(x)	Square root	Math.sqrt(25) → 5.0
+Math.pow(x, y)	Power (x^y)	Math.pow(2, 3) → 8.0
+
+2. Rounding Functions
+
+Math.ceil(x)	Rounds up to nearest integer	Math.ceil(4.3) → 5.0
+Math.floor(x)	Rounds down to nearest integer	Math.floor(4.9) → 4.0
+Math.round(x)	Rounds to nearest integer	Math.round(4.5) → 5
+
+3. Trigonometric Functions (Radians)
+
+Math.sin(x)	Sine of x (in radians)	Math.sin(Math.PI/2) → 1.0
+Math.cos(x)	Cosine of x (in radians)	Math.cos(0) → 1.0
+Math.tan(x)	Tangent of x (in radians)	Math.tan(Math.PI/4) → 1.0
+Math.toRadians(x)	Converts degrees to radians	Math.toRadians(180) → 3.14159
+Math.toDegrees(x)	Converts radians to degrees	Math.toDegrees(Math.PI) → 180.0
+
+5. Random Number Generation
+
+Math.random()	Returns a random number between 0.0 and 1.0	Math.random() → 0.678
+Math.random() * 10	Random number between 0 and 10	Math.random() * 10 → 4.5
+Example: Generate a Random Integer Between a Range
+
