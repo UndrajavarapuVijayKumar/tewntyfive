@@ -27,7 +27,7 @@ public class EvenOddArray {
 		Collections.sort(list);
 		System.out.println("list after adding evens : "+list);
 		list.addAll(odds);
-		Collections.sort(list);
+//		Collections.sort(list);
 		System.out.println("list after adding even and odds : "+list);
 //		Collections.sort(list);
 		System.out.println("Sorted List: "+list);
