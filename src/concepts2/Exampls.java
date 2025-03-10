@@ -1,6 +1,6 @@
 package concepts2;
 
-public class Exampls implements Interface_main,interface2{
+public class Exampls implements Interface_main,interface2 {
 
 	@Override
 	public void show_A() {
@@ -20,5 +20,13 @@ public class Exampls implements Interface_main,interface2{
 		e.show_B();
 		e.show_default();
 		e.show();
+		
+		AbClass abc = new AbClass() {
+			@Override
+			public void print() {
+				System.out.println("Abstract anonymous method!");
+			}
+		};
+		abc.print();
 	}
 }
